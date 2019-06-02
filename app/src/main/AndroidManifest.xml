@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="njutcm.com.bloodsugar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Personal.JiFen" />
+        <activity android:name=".Personal.DingDan" />
+        <activity android:name=".Personal.ShouCang" />
+        <activity android:name=".Personal.ShoppingCart" />
+        <activity android:name=".Personal.HealthRecords" />
+        <activity android:name=".Personal.InfoCenter" />
+        <activity android:name=".Personal.SmartEquipment" />
+        <activity android:name=".Personal.FriendRecommand" />
+        <activity android:name=".Personal.AccountInformation" />
+        <activity android:name=".Personal.SystemSetup" />
+        <activity android:name=".SugarSchool.NoviceGuide" />
+        <activity android:name=".SugarSchool.OpenClass" />
+        <activity android:name=".SugarSchool.BookStore" />
+        <activity android:name=".Personal.MyRecord" />
+        <activity android:name=".Market.Medicine" />
+        <activity android:name=".Market.HealthFood" />
+        <activity android:name=".Market.Machine" />
+        <activity android:name=".BloodSugar.YaPei" />
+        <activity android:name=".BloodSugar.SugarChart" />
+        <activity android:name=".BloodSugar.RememberSugar" />
+        <activity android:name=".BloodSugar.TangHua" />
+        <activity android:name=".BloodSugar.BloodPressure" />
+        <activity android:name=".BloodSugar.BloodFat" />
+        <activity android:name=".BloodSugar.Weight" />
+        <activity android:name=".BloodSugar.LaboratoryTest" />
+        <activity android:name=".BloodSugar.Prescription" />
+        <activity android:name=".BloodSugar.MedicalRecord" />
+        <activity android:name=".BloodSugar.ShiLiao" />
+        <activity android:name=".BloodSugar.Details" />
+        <activity android:name=".BloodSugar.Sport" />
+        <activity android:name=".BloodSugar.GoToSport" />
+        <activity android:name=".BloodSugar.SportRecord" />
+        <activity android:name=".BloodSugar.UseMedicine" />
+        <activity android:name=".BloodSugar.More" />
+        <activity android:name=".BloodSugar.Remind" />
+        <activity android:name=".BloodSugar.Discomfort" />
+        <activity android:name=".BloodSugar.Assessment"></activity>
+    </application>
+
+</manifest>

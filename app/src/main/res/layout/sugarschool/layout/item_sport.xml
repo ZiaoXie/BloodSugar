@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/sport1"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="运动时间越长越好"
+        android:layout_toRightOf="@+id/iv"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/iv"/>
+    <TextView
+        android:id="@+id/source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="来源:全民健身指南"
+        android:layout_toRightOf="@+id/iv"
+        android:textSize="16dp"
+        android:layout_alignBottom="@+id/iv"/>
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/iv"
+        android:text="1500"
+        android:layout_marginRight="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/count"
+        android:background="@mipmap/zan"
+        android:layout_alignBottom="@id/iv"/>
+
+</RelativeLayout>

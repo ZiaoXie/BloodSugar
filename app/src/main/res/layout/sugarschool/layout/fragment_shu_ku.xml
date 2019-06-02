@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="njutcm.com.bloodsugar.SugarSchool.ShuKu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/recommend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="热门推荐"
+                android:textSize="20dp"
+                android:background="@drawable/shape_no_circle"
+                android:padding="12dp"/>
+            <TextView
+                android:id="@+id/novice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新手必读"
+                android:textSize="20dp"
+                android:background="@drawable/shape_no_circle"
+                android:padding="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="饮食运动"
+                android:textSize="20dp"
+                android:background="@drawable/shape_no_circle"
+                android:padding="12dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/shuku"/>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
